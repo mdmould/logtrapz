@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-name = 'pythonpackage'
+name = 'logtrapz'
 version = '0.0.1'
 
 with open('README.md' ,'r') as f:
@@ -17,7 +17,7 @@ setup(
     author_email='mattdmould@gmail.com',
     license='MIT',
     packages=find_packages(),
-    install_requires=[],
+    install_requires=[numpy, scipy],
     python_requires='>=3.7',
     )
     
